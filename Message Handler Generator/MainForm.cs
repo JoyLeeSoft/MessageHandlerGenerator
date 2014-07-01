@@ -161,7 +161,7 @@ namespace Message_Handler_Generator
             #endregion
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_Copy_Click(object sender, EventArgs e)
         {
             if (ht.ContainsKey(comboBox_Search.Text) == true)
             {
@@ -174,7 +174,7 @@ namespace Message_Handler_Generator
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button_Quit_Click(object sender, EventArgs e)
         {
             this.Close();
         }

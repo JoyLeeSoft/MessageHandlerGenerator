@@ -57,7 +57,7 @@
             this.button_Copy.TabIndex = 1;
             this.button_Copy.Text = "Copy";
             this.button_Copy.UseVisualStyleBackColor = true;
-            this.button_Copy.Click += new System.EventHandler(this.button1_Click);
+            this.button_Copy.Click += new System.EventHandler(this.button_Copy_Click);
             // 
             // button_Quit
             // 
@@ -67,7 +67,7 @@
             this.button_Quit.TabIndex = 2;
             this.button_Quit.Text = "Quit";
             this.button_Quit.UseVisualStyleBackColor = true;
-            this.button_Quit.Click += new System.EventHandler(this.button2_Click);
+            this.button_Quit.Click += new System.EventHandler(this.button_Quit_Click);
             // 
             // groupBox_Search
             // 
